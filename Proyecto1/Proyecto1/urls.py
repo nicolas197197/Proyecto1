@@ -27,5 +27,6 @@ urlpatterns = [
     path('hoy/', hoy),
     path('nombre/<name>/<last_name>/', nombre),
     path('probandoTemplate/', probandoTemplate)
+    
 
 ]

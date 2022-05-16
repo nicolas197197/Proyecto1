@@ -16,7 +16,7 @@ def nombre (self, name, last_name):
     return HttpResponse (f'"Mi nombre completo es {name} {last_name}"')    
 
 def probandoTemplate(self):
-    miHtml = open("C:/Users/nicol/Desktop/Python_proyecto1/Proyecto1/Proyecto1/Template/template1.html")
+    miHtml = open("C:/Users/nicol/Desktop/Python_proyecto1_clase17/Proyecto1/Proyecto1/Template/template1.html")
     plantilla = Template(miHtml.read()) #Se carga en memoria nuestro documento, template1   
     ##OJO importar template y contex, con: from django.template import Template, Context
     miHtml.close() #Cerramos el archivo
